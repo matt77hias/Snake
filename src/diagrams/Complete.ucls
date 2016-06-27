@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" language="java" name="snake.engine" project="Snake" file="/Snake/src/snake/engine" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="294" width="713" x="24" y="277"/>    
+    <display autosize="false" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="snake.controller" project="Snake" file="/Snake/src/snake/controller" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="711" x="24" y="78"/>    
+    <display autosize="false" stereotype="true" accessors="true"/>  
+  </package>  
+  <interface id="3" language="java" name="snake.engine.GameListener" project="Snake" 
+    file="/Snake/src/snake/engine/GameListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="242" y="323"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="snake.engine.GameController" project="Snake" 
+    file="/Snake/src/snake/engine/GameController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="113" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="snake.engine.Animator" project="Snake" 
+    file="/Snake/src/snake/engine/Animator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="520" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="snake.engine.AnimationLoop" project="Snake" 
+    file="/Snake/src/snake/engine/AnimationLoop.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="519" y="328"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="snake.engine.StatisticsManager" project="Snake" 
+    file="/Snake/src/snake/engine/StatisticsManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="520" y="529"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="snake.engine.JFrameListener" project="Snake" 
+    file="/Snake/src/snake/engine/JFrameListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="113" y="321"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <package id="9" language="java" name="snake.view" project="Snake" file="/Snake/src/snake/view" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="157" width="715" x="22" y="-86"/>    
+    <display autosize="false" stereotype="true" accessors="true"/>  
+  </package>  
+  <interface id="10" language="java" name="snake.engine.StatisticsListener" project="Snake" 
+    file="/Snake/src/snake/engine/StatisticsListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="667" y="327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="11" language="java" name="snake.view.Drawable" project="Snake" 
+    file="/Snake/src/snake/view/Drawable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="100" y="7"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="snake.view.SnakeFrame" project="Snake" 
+    file="/Snake/src/snake/view/SnakeFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="465" y="6"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="snake.view.SnakePanel" project="Snake" 
+    file="/Snake/src/snake/view/SnakePanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="280" y="7"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="snake.view.StatusPanel" project="Snake" 
+    file="/Snake/src/snake/view/StatusPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="667" y="5"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="snake.controller.MainController" project="Snake" 
+    file="/Snake/src/snake/controller/MainController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="379" y="190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="snake.controller.SnakeAnimationLoop" project="Snake" 
+    file="/Snake/src/snake/controller/SnakeAnimationLoop.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="566" y="192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="snake.controller.KeyController" project="Snake" 
+    file="/Snake/src/snake/controller/KeyController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="95" y="147"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="snake.model.Obstacle" project="Snake" file="/Snake/src/snake/model/Obstacle.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="905" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="snake.model.BonusObstacle" project="Snake" 
+    file="/Snake/src/snake/model/BonusObstacle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="862" y="322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="snake.model.NormalObstacle" project="Snake" 
+    file="/Snake/src/snake/model/NormalObstacle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="993" y="322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="snake.model.Snake" project="Snake" file="/Snake/src/snake/model/Snake.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="904" y="124"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <association id="22">    
+    <bendpoint x="452" y="249"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="23" name="mainController"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="26">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="27" name="mainController"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="30" name="snakeFrame"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="33" name="gameController">        
+        <position height="18" width="80" x="50" y="361"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="1">        
+        <position height="16" width="23" x="85" y="380"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="36" name="statMngr"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="38">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="39" name="animationLoop"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="42" name="nObs"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="44">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="45">    
+    <bendpoint x="251" y="190"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="46" name="gameController">        
+        <position height="18" width="80" x="232" y="204"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="1">        
+        <position height="16" width="23" x="256" y="225"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="49" name="drawables"/>      
+      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="52" name="gameController"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="54">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="55">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="56" name="sal"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="59" name="gameListeners">        
+        <position height="18" width="79" x="206" y="362"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="2147483647">        
+        <position height="16" width="21" x="207" y="381"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="61">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="62">    
+    <bendpoint x="669" y="529"/>    
+    <bendpoint x="669" y="444"/>    
+    <bendpoint x="669" y="397"/>    
+    <bendpoint x="669" y="374"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="63" name="statisticsListeners">        
+        <position height="18" width="96" x="600" y="536"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="2147483647">        
+        <position height="16" width="21" x="676" y="518"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="66" name="snakePanel"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="69" name="snake"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="72">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="73" name="bObs"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="75">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="76">    
+    <bendpoint x="196" y="137"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="77" name="keyController"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <bendpoint x="217" y="63"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="80" name="mainController">        
+        <position height="18" width="76" x="235" y="44"/>      
+      </attribute>      
+      <multiplicity id="81" minimum="0" maximum="1">        
+        <position height="16" width="23" x="251" y="62"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="83" name="statusPanel"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false"/>    
+    <operations public="false" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
