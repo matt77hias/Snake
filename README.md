@@ -6,6 +6,6 @@ A tribute to the Snake games provided for the TI84+ graphing calculator supporti
 This Snake game uses a correct timer for the game loop as explained in Andrew Davison's *Killer Game Programming in java*.
 
 ## Use
-<p align="center"><img src="https://github.com/matt77hias/Snake/blob/master/res/Snake.png"></p>
+<p align="center"><img src="res/Snake.png"></p>
 1. Run `Snake.jar`
 2. Have Fun!
