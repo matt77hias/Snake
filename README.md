@@ -7,5 +7,6 @@ This Snake game uses a correct timer for the game loop as explained in Andrew Da
 
 ## Use
 <p align="center"><img src="res/Snake.png"></p>
+
 1. Run `Snake.jar`
 2. Have Fun!
