@@ -3,8 +3,8 @@
 [s1]: https://travis-ci.org/matt77hias/Snake.svg?branch=master
 [s2]: https://img.shields.io/badge/license-GPL%203.0-blue.svg
 
-[tr]: https://travis-ci.org/ComputerGraphicsResearchGroup/CGPracticum
-[li]: https://travis-ci.org/matt77hias/Snake
+[tr]: https://travis-ci.org/matt77hias/Snake
+[li]: https://raw.githubusercontent.com/matt77hias/Snake/master/LICENSE.txt
 
 # Snake
 
