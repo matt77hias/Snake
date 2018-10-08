@@ -67,7 +67,10 @@ public class Animator implements Runnable {
 		
 	@Override
 	public void run() {
-		long beforeTime, afterTime, timeDiff, sleepTime;
+		long beforeTime;
+		long afterTime;
+		long timeDiff;
+		long sleepTime;
 		long overSleepTime = 0L;
 		int numberOfDelays = 0;
 		long excess = 0L;
