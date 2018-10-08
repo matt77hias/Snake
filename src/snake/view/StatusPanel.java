@@ -38,6 +38,7 @@ public class StatusPanel extends JPanel implements StatisticsListener {
 
 	@Override
 	public void updatePerformanceInfo(String msg) {
+		// no-op
 	}
 
 	@Override
