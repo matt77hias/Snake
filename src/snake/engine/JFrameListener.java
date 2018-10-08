@@ -37,10 +37,10 @@ public class JFrameListener implements WindowListener {
 	}
 
 	public void windowClosed(WindowEvent e) {
-		
+		// no-op
 	}
 	
 	public void windowOpened(WindowEvent e) {
-		
+		// no-op
 	}
 }
