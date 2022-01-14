@@ -1,4 +1,4 @@
-[![Build status][s1]][tr] [![Code quality][s2]][co] [![License][s3]][li]
+[![Code quality][s2]][co] [![License][s3]][li]
 
 [s1]: https://travis-ci.org/matt77hias/Snake.svg?branch=master
 [s2]: https://api.codacy.com/project/badge/Grade/20c9073e03604c419025ca53c7b41304
